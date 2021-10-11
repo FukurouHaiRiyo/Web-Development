@@ -1,5 +1,6 @@
 # Web-Development
-    This repository will contain the lesson I'll take about web development during this semester. Feel free to use this as learning resource.
+    
+ This repository will contain the lesson I'll take about web development during this semester. Feel free to use this as learning resource.
     
 # Clone this repository
     ```git clone https://github.com/comby-cmyk/Web-Development.git```
