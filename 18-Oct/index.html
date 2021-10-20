@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <style>
+            /* second method if using css */
+            #title{ /* for styling objects with the id 'title'(this case h2) */
+                font-size: 48px;
+                color:red;
+            }
+            .title{ /* for styling objects with the class name 'title'*/
+                font-size: 48px;
+                color: blue;
+            }
+
+            .google{/* for styling the objects with the class name 'google'(this case the image tag)*/
+                width:200px;
+                height:auto;
+            }
+
+            .profile_pic{/* for styling objects with the class name 'profile_pic' (this case the second image tag)*/
+                width:200px;
+                height:auto;
+                border-style: none;
+                border-radius: 50%;
+            }
+
+            .borders{/*for styling the objects tag with class name 'borders'(this case the div tag)*/
+                border-width: 2px;
+                border-color: green;
+                border-style: solid;
+            }
+
+            .color_div{/* for styling the objects with the name 'color_div'*(this case the second div tag)*/
+                background-color: yellowgreen;
+            }
+
+            .name{/* for the first div class*/
+                border-style: solid;
+                border-color: black;
+                padding: 10px;
+            }
+
+            .name1{ /* for the second div class*/
+                border-style: solid;
+                border-color: black;
+                padding: 10px;
+            }
+
+            .name2{/*for the third div class*/
+                border-style: solid;
+                border-color: black;
+                padding: 0px, 10px, 0px, 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style = "color: blue">
+            <!-- first method of using css -->
+            Salut
+        </h1>
+        <img class = "google" src = "google2.0.0.jpg"/>
+        <br>
+        <img class = "profile_pic" src = "picture.jpeg"/>
+        <h2 id = "title">Title 1</h2>
+        <h2 class = "title">Title 2</h2>
+        <h2 class = "title">Title 3</h2>
+
+        <div class = "borders">
+            <h1>Heading</h1>
+            <p>Paragraph</p>
+        </div>
+
+        <div class = "color_div">
+            <h1>This is the second div</h1>
+            <p>Paragraph div 2</p>
+        </div>
+
+        <div class = "name">
+            <div class = "name1">
+                <div class = "name2">
+                    Al treilea div;
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
