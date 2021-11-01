@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <script>
+            //single line comentary
+            /*for 
+            multiline 
+            comments*/
+
+            /*Types of data in JS: 
+                undefined, boolean, string, int, number, object
+
+            Operators:
+                + -> for sum
+                - -> for difference
+                / -> divide
+                * -> multiply
+                % -> mod 
+
+            Relational operators:
+                == -> check if 2 variables are equal
+                
+                != -> check if 2 variables are different
+
+                === -> check if 2 variables are equal and check if their type are the same
+                !== -> check if 2 variables are different nd check if their type are the different
+                > -> greater than
+                < -> less than
+                >= -> greater or equal
+                <= -> less than or equal
+
+
+                Assign: =
+                += -> add something to a variable
+                -= -> decrease something from a variable
+                /= -> divide
+                %= -> mod
+
+                ++ -> increment
+                -- -> decrement
+
+
+                Logical operators:
+                    &&, ||, !
+            */
+
+            var variableTest = 0;
+            var variableTest2 = 24;
+            var variableTestString = "Hello world";
+            var variableNonInitialized;
+            let variableLetDefined = "string"; // let doesn't allow reasignation
+            variableLetDelete = "string2";
+            variableTest = 12;
+
+            variableTest = variableTest2;
+            //console.log(variableTest);
+            //console.log(variableLetDefined);
+            const variableName = 100; //constant values
+            // console.log(variableName);
+
+
+            let loremText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+            //console.log(loremText);
+
+            //concat
+
+            //console.log(loremText + variableTest);
+
+            let variableStringFinal = "";
+
+            variableStringFinal += loremText;
+            variableStringFinal += variableTest;
+
+            // console.log(variableStringFinal);
+
+            let lengthOfvariable = "Length";
+            //console.log(lengthOfvariable.length);
+
+            let variableCharacter = "hello";
+            //console.log(variableCharacter[0], variableCharacter[variableCharacter.length - 1]);
+
+            //vectors
+
+            let vector = ['test', 1, 2, 3.5];
+            //console.log(vector);
+            //console.log(vector[2]);
+
+            //matrix
+            let matrix = [
+                [1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]
+            ];
+
+            //console.log(matrix);
+            //console.log(matrix[2][2]);
+
+            //build in functions
+            
+            //add element at the end of the vector
+            vector.push("push");
+            //console.log(vector);
+
+            //delete element form end
+            vector.pop();
+
+            //delete element from front
+            vector.shift();
+
+            //add element to front
+            vector.unshift('test');
+
+            // //functions
+            // function sumOfTwoNums(a, b){
+            //     let s = a + b;
+            //     return s;
+            // }
+
+            // console.log(sumOfTwoNums(2, 3));
+        
+            // function EqualTo(a, b){
+            //     return a === b;
+            // }
+
+            // console.log(EqualTo(2, 3));
+            // console.log(EqualTo(2, 2));
+            
+            /*if statements:
+                if(condition){
+                    instruction
+                }
+                else if(condition){
+                    instruction
+                }
+                else{
+                    instruction
+                }
+                
+
+                switch statement:
+                    switch(val){
+                        case checkVal:
+                            instructions
+                            break
+                        case checkVal1:
+                            instructions
+                        
+                        default:
+                            instructions
+                    }
+
+                
+                while(condition){
+                    instructions
+                }
+
+                for(let i = 0; i < iterationNumber; i++){
+                    instructions
+                }
+
+                do{
+                    instructions
+                } while(condition);
+
+                Ternary operator:
+                    condition ? case true do instructions : case false do instructions
+
+                
+
+
+            */
+
+            //Objects
+            let objectAnimal = {
+                "name":"cat",
+                "leg Number":"4",
+                "years":"2",
+                "test":[1, 2, 3],
+                "object":{
+                    "test":1,
+                    "Hi":"hello"   
+                }
+            };
+
+            //console.log(objectAnimal);
+
+
+            //access a specific element from object
+            //console.log(objectAnimal['leg Number'])
+            //console.log(objectAnimal.name);
+
+            //add properties
+
+            objectAnimal.test2 = ["1", "2", "3"];
+            //console.log(objectAnimal);
+
+            //delete somethin from object
+            delete objectAnimal.years;
+            //console.log(objectAnimal);
+            
+            /*iterate through object
+            for(var property in objectAnimal)
+                console.log(objectAnimal[property]);
+            */
+
+            //even numbers from 1 to n
+
+            function even(n){
+                for(let i = 0; i<=n; i++)
+                    if(i % 2 == 0)
+                        console.log(i + " ");
+            }
+
+            console.log(even(20));
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>
